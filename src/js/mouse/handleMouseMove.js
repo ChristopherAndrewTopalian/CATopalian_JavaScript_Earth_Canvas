@@ -2,31 +2,27 @@
 
 function handleMouseMove(e)
 {
-    if (panning)
-    {
-        let offsetX = (e.clientX - panningStart.x) * scale;
+    if (!panning) return;
 
-        let offsetY = (e.clientY - panningStart.y) * scale;
+    // calculate how far the mouse moved
+    let dx = e.offsetX - panningStart.x;
+    let dy = e.offsetY - panningStart.y;
 
-        for (let i = 0; i < locations.length; i++) 
-        {
-            let location = locations[i];
+    // update the camera center
+    cameraCenter.x -= dx;
+    cameraCenter.y -= dy;
 
-            location.longitude += offsetX;
+    // reset start point for the next move tick
+    panningStart.x = e.offsetX;
+    panningStart.y = e.offsetY;
 
-            location.latitude += offsetY;
-        }
-
-        panningStart = { x: e.clientX, y: e.clientY };
-
-        drawLocations();
-    }
+    drawLocations(); // redraw with new position
 }
 
 //----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting

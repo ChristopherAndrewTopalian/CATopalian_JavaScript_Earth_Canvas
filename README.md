@@ -1,7 +1,9 @@
 # CATopalian JavaScript Earth Canvas
 A JavaScript application that uses Canvas to enable Longitude and Latitude Map Coordinate Markers to be placed on a screen that is draggable.  
 
-![screenshot_001](src/media/textures/screenshots/001a.PNG)  
+![004](src/media/textures/screenshots/004.PNG)  
+
+![003](src/media/textures/screenshots/003.PNG)  
 
 USE APP: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Earth_Canvas/CATopalian_JavaScript_Earth_Canvas.html  
 
@@ -17,4 +19,12 @@ USE APP: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Earth
 ---
 
 Happy Scripting :-)
+
+//----//
+
+// Dedicated to God the Father  
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026  
+// https://github.com/ChristopherTopalian  
+// https://github.com/ChristopherAndrewTopalian  
+// https://sites.google.com/view/CollegeOfScripting
 
