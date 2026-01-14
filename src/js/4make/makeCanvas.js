@@ -4,7 +4,7 @@ function makeCanvas()
 {
     let theCanvas = ce('canvas');
     theCanvas.id = 'map';
-    theCanvas.style.width = '850px';
+    theCanvas.style.width = '750px';
     theCanvas.style.height = '400px';
     theCanvas.style.position = 'absolute';
     theCanvas.style.left = 0 + 'px';

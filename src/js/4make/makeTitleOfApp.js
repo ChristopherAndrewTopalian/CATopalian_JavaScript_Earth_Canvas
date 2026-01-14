@@ -8,7 +8,7 @@ function makeTitleOfApp()
     theTitle.target = '_blank';
     theTitle.textContent = 'CATopalian JavaScript Earth Canvas';
     theTitle.style.position = 'absolute';
-    theTitle.style.right = 5 + 'px';
+    theTitle.style.left = 5 + 'px';
     theTitle.style.top = 1 + 'px';
     theTitle.style.fontSize = '15px';
     theTitle.style.fontWeight = 'bold';
